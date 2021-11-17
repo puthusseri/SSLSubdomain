@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <style type="text/css">
+      .wrapper {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .typing-demo {
+        width: 56ch;
+        animation: typing 2s steps(56), blink 0.5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: monospace;
+        font-size: 2em;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+      }
+
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="typing-demo">
+        This is a test page for checking the ssl for subdomains.
+    </div>
+  </body>
+</html>
